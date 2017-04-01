@@ -1,0 +1,17 @@
+Case 1 : with no compile time options
+As our array is copied onto the stack and by default the linux system enables stack protection and disables stack being executable our code canot run.
+Just like replacing tags in a html document that can no longer be rendered by a web browser as without the
+start and end tags they are simple text.
+
+Case 2 : With stack protection turned off
+The idea behind stack potection is putting an integer value after the function return pointer is being pushed on the stack. If the value is changed the function aborts
+and thus it maintains security.
+Here as well we disable the stack protection but the stack is not yet executable. Hence the code cannot
+be directly run by simply modifying pointers.
+
+Case 3 : With an executable stack
+With stack protection disabled it aborts the program as soon as the function return pointer is updated and 
+compiler finds a canary value other than the one that was pushed as the initial function return call.Hence we get a segmentation fault and our code does not execute.
+
+Case 4 : With stack protection turned off and executable stack
+As there is no means for the executor to know if we are modifying contents on the stack, the program runs and our code executes.

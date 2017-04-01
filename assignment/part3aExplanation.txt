@@ -1,0 +1,10 @@
+The mprotect() function is used to change the access protection of the memory mappings for the process within the range of address
+specified as parameter1 and parameter2.
+We are using the arguments PROT_READ|PROT_WRITE|PROT_EXEC. This allows the process
+to read, write and execute the memory mapped within the specified range.
+We specify the address range that we are leveraging the options on which is
+starting address of the buffer to the length of shellcode + 10.
+Since we are changing access protection to allow execution of the memory address, our code to open a shell gets executed
+just like an HTML tag being rendered by a web browser in a cross site script attack.
+
+However, as we comment the method call we no longer provide execution privilege to the memory pages and hence the program does not execute resulting in a segmentation fault.

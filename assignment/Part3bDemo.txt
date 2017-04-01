@@ -1,0 +1,101 @@
+Script started on Fri Mar 31 22:51:50 2017
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ exit./part3bgcc -z execstack -fno-stack-protector -o ppart3b part3b.c [Arahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stack-protector -o-o pa[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stack-protector-o par[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stack-protecto-o part[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stack-protect-o part3[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stack-protec-o part3b[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stack-prote-o part3b [1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stack-prot-o part3b p[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stack-pro-o part3b pa[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stack-pr-o part3b par[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stack-p-o part3b part[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stack-o part3b part3[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stack-o part3b part3b[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stac-o part3b part3b.[1Pc [Apsing@js-156-100:/class/assignment$ gcc -z execstack -fno-sta-o part3b part3b.c[1P [Ahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-st-o part3b part3b.c [K[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-s-o part3b part3b.c  [K[Arahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-[1P
+[K[Arahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+part3b.c: In function 'dumb':
+part3b.c:32:11: warning: assignment makes integer from pointer without a cast [enabled by default]
+      *hold=filename;
+           ^
+part3b.c: In function 'main':
+part3b.c:50:7: warning: format '%d' expects argument of type 'int', but argument 2 has type 'size_t' [-Wformat=]
+       printf("\\Length of Input String:%d\\", strlen(string));
+       ^
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ ./part3b
+
+
+Error: No Command Line arg for vuln was given
+
+
+Value of Test:7fffffffb828
+Value of filename[0]:7fffffffb830
+The attack buffer is going to need to be a little bit bigger than:ffff8000000047d0
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ ./part3bgcc -o part3b part3b.c exit[K./part3bgcc -z execstack -fno-stack-protector -o ppart3b part3b.c [Arahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stack-protector -or -o pa[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stack-protecto -o par[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stack-protect -o part[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stack-protec -o part3[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stack-prote -o part3b[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stack-prot -o part3b [1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stack-pro -o part3b p[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stack-pr -o part3b pa[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stack-p -o part3b par[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stack- -o part3b part[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stack -o part3b part3[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stac -o part3b part3b[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-sta -o part3b part3b.[1Pc [Apsing@js-156-100:/class/assignment$ gcc -z execstack -fno-st -o part3b part3b.c[1P [Ahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-s -o part3b part3b.c [K[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno- -o part3b part3b.c  [K[Arahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno[1P
+[K[Arahpsing@js-156-100:/class/assignment$ gcc -z execstack -fn[1P[1P[1P[1P
+part3b.c: In function 'dumb':
+part3b.c:32:11: warning: assignment makes integer from pointer without a cast [enabled by default]
+      *hold=filename;
+           ^
+part3b.c: In function 'main':
+part3b.c:50:7: warning: format '%d' expects argument of type 'int', but argument 2 has type 'size_t' [-Wformat=]
+       printf("\\Length of Input String:%d\\", strlen(string));
+       ^
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ ./part3b
+
+
+Error: No Command Line arg for vuln was given
+
+
+Value of Test:7fffffffb828
+Value of filename[0]:7fffffffb830
+The attack buffer is going to need to be a little bit bigger than:ffff8000000047d0
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ ./part3bgcc -z execstack -o part3b part3b.c ./part3b[Kgcc -o part3b part3b.c exit[K./part3bgcc -z execstack -fno-stack-protector -o ppart3b part3b.c [Arahpsing@js-156-100:/class/assignment$ gcc -z execstack -fno-stack-protector -o-fno-stack-protector -o pa[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstack-fno-stack-protector -o par[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execstac-fno-stack-protector -o part[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execsta-fno-stack-protector -o part3[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execst-fno-stack-protector -o part3b[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z execs-fno-stack-protector -o part3b [1P[Aahpsing@js-156-100:/class/assignment$ gcc -z exec-fno-stack-protector -o part3b p[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z exe-fno-stack-protector -o part3b pa[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z ex-fno-stack-protector -o part3b par[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z e-fno-stack-protector -o part3b part[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z -fno-stack-protector -o part3b part3[1P[Aahpsing@js-156-100:/class/assignment$ gcc -z-fno-stack-protector -o part3b part3b[1P[Aahpsing@js-156-100:/class/assignment$ gcc -fno-stack-protector -o part3b part3b.[1Pc [Apsing@js-156-100:/class/assignment$ gcc 
+
+part3b.c: In function 'dumb':
+part3b.c:32:11: warning: assignment makes integer from pointer without a cast [enabled by default]
+      *hold=filename;
+           ^
+part3b.c: In function 'main':
+part3b.c:50:7: warning: format '%d' expects argument of type 'int', but argument 2 has type 'size_t' [-Wformat=]
+       printf("\\Length of Input String:%d\\", strlen(string));
+       ^
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ [K./part3b
+
+
+Error: No Command Line arg for vuln was given
+
+
+Value of Test:7fffffffbc48
+Value of filename[0]:7fffffffb840
+The attack buffer is going to need to be a little bit bigger than:2b50
+Segmentation fault (core dumped)
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ ./part3bgcc -fno-stack-protector -o part3b part3b..c 
+part3b.c: In function 'dumb':
+part3b.c:32:11: warning: assignment makes integer from pointer without a cast [enabled by default]
+      *hold=filename;
+           ^
+part3b.c: In function 'main':
+part3b.c:50:7: warning: format '%d' expects argument of type 'int', but argument 2 has type 'size_t' [-Wformat=]
+       printf("\\Length of Input String:%d\\", strlen(string));
+       ^
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ [K./part3b
+
+
+Error: No Command Line arg for vuln was given
+
+
+Value of Test:7fffffffbc48
+Value of filename[0]:7fffffffb840
+The attack buffer is going to need to be a little bit bigger than:2b50
+Segmentation fault (core dumped)
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ ./part3bgcc -fno-stack-protector -o part3b part3b..c [Apsing@js-156-100:/class/assignment$ ./part3b[K
+[K[Arahpsing@js-156-100:/class/assignment$ ./part3bgcc -fno-stack-protector -o part3b part3b..c [Apsing@js-156-100:/class/assignment$ ./part3b[K
+[K[Arahpsing@js-156-100:/class/assignment$ ./part3bgcc -z execstack -o part3b part3b.c ./part3b[Kgcc -o part3b part3b.c exit[K./part3bgcc -z execstack -fno-stack-protector -o ppart3b part3b.c 
+part3b.c: In function 'dumb':
+part3b.c:32:11: warning: assignment makes integer from pointer without a cast [enabled by default]
+      *hold=filename;
+           ^
+part3b.c: In function 'main':
+part3b.c:50:7: warning: format '%d' expects argument of type 'int', but argument 2 has type 'size_t' [-Wformat=]
+       printf("\\Length of Input String:%d\\", strlen(string));
+       ^
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ [K./part3b
+
+
+Error: No Command Line arg for vuln was given
+
+
+Value of Test:7fffffffbc48
+Value of filename[0]:7fffffffb840
+The attack buffer is going to need to be a little bit bigger than:2b50
+$ exit
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ exit
+Script done on Fri Mar 31 22:54:35 2017

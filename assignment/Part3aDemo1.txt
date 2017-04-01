@@ -1,0 +1,14 @@
+Script started on Fri Mar 31 22:32:49 2017
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ exitgdb ./part2[4P./part2[12@ld part2.o -o part2as part2.s -o part2.o[2Pld part2.o -o part2[12P./part2[4@gdb ./part2[7Pexit[Kexitgdb ./part2[4P./part2[12@ld part2.o -o part2as part2.s -o part2.oexit[K./part1[12@ld part1.o -o part1as part1.s -o part1.oexit[Kld part1.o -o part1.oas part1.s -o part1.o[11Pvi part1.sgcc -o part1asm -g -ggdb part1.c[18Pcd assignment/..[Kgit push origin mastercommit -m "Comments added"add .[Kcommit -m "Comments added"[8Ppush origin mastercd ..[Kassignment/gcc -o part1asm -g -ggdb part1.cvi part1.s[Kas part1.s -o part1.old part1.o -o part1.oexit[Kas part1.s -o part1.o[2Pld part1.o -o part1[12P./part1[3Pexit    gcc -o 3a part3a.c
+part3a.c: In function 'main':
+part3a.c:41:3: warning: passing argument 1 of 'posix_memalign' from incompatible pointer type [enabled by default]
+   posix_memalign(&buf, pagesize, strlen(shellcode)+10);
+   ^
+In file included from part3a.c:3:0:
+/usr/include/stdlib.h:503:12: note: expected 'void **' but argument is of type 'char **'
+ extern int posix_memalign (void **__memptr, size_t __alignment, size_t __size)
+            ^
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ ./3a
+$ exit
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ exit
+Script done on Fri Mar 31 22:33:34 2017

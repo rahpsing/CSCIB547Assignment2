@@ -1,0 +1,7 @@
+Script started on Fri Mar 31 22:12:21 2017
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ exitld part1.o -o part1.oas part1.s -o part1.o
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ as part1.s -o part1.oexit[Kld part1.o -o part1.o  
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ ./part1
+$ exit
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ exit
+Script done on Fri Mar 31 22:12:41 2017
