@@ -1,0 +1,1 @@
+I was able to perfectly align all the addresses but still my shell couldnt be executed!
